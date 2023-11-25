@@ -1,7 +1,7 @@
 {
   "name": "dockerwork",
   "version": "1.0.0",
-  "description": "this project is for wokring on docker",
+  "description": "this project is for working on coder",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,10 +11,17 @@
     "type": "git",
     "url": "git+https://github.com/SeejhAI/dockerwork.git"
   },
+  "keywords": [
+    "dokcer"
+  ],
   "author": "Ishaque Nizamani",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SeejhAI/dockerwork/issues"
   },
-  "homepage": "https://github.com/SeejhAI/dockerwork#readme"
+  "homepage": "https://github.com/SeejhAI/dockerwork#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
 }
